@@ -1,0 +1,5 @@
+"0","#make a wide table for reporting "
+"0","res_eai_wide <- res_eai_long %>%"
+"0","   pivot_wider(names_from = YEAR, values_from = EAI)"
+"0",""
+"0","write.csv(res_eai_wide, file = ""results_summary_df_EAI.csv"", row.names = FALSE)"
